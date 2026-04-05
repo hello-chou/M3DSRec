@@ -1,6 +1,8 @@
 # M3DSRec
-TOIS under review. 
-alltoone.py corresponds to M3DSRec
+# Introduction
+This work is currently under review at TOIS (ACM Transactions on Information Systems).
+
+Note: The file alltoone.py corresponds to the implementation of M3DSRec.
 
 
 
