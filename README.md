@@ -25,7 +25,7 @@ python finetune.py -m alltoone -d dataset_name -props=‘props/alltoone.yaml,pro
 
 
 
-# Model Methods
+# Sequence Modeling Methods
 You can specify the sequence modeling method using the --modelmethod argument. The available options are:
 
 sasrec: Corresponds to SASRec
