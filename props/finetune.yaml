@@ -1,0 +1,20 @@
+data_path: 'dataset/'
+benchmark_filename: [ train, valid, test ]
+alias_of_item_id: [ item_id_list ]
+load_col:
+  inter: [ user_id, item_id_list, item_id ]
+neg_sampling: ~
+transform: ~
+
+topk: [ 5,10,20]
+metrics: [ NDCG,MRR,]
+valid_metric: NDCG@10
+eval_batch_size: 512
+train_batch_size: 512
+stopping_step: 10
+
+gpu_id: '0'
+log_prefix: ''
+log_suffix: ''
+
+
