@@ -1,0 +1,6 @@
+eval_args:
+  split: {'LS': 'valid_and_test'}
+  order: TO
+  mode: full
+repeatable: True
+train_neg_sample_args: ~
