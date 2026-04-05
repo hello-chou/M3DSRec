@@ -1,5 +1,6 @@
 # M3DSRec
-TOIS under review. alltoone.py corresponds to M3DSRec
+TOIS under review. 
+alltoone.py corresponds to M3DSRec
 
 
 
