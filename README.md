@@ -1,5 +1,8 @@
 # M3DSRec
-TOIS under review
+TOIS under review. alltoone.py corresponds to M3DSRec
+
+
+
 
 # Data Preparation
 Please place your datasets in the dataset folder before running the training scripts.
