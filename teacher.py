@@ -174,7 +174,6 @@ class TEACHER(Transformer):
             al = self.adjust(torch.cat([item_id_embeddings, t, v], dim=-1))
         al = self.gather_indexes(al, item_seq_len - 1)
         al = self.LayerNorm(al)
-        al = self.dropout(al)
         if self.modelmethod == 'sasrec':
             return al, [dec_input_emb[:, 0, :, :], dec_input_emb[:, 1, :, :], t[-1], v[-1], t_center, v_center,item_id_embeddings_ks]
         elif self.modelmethod == 'mamba':
